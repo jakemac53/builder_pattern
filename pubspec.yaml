@@ -1,0 +1,7 @@
+name: builder_pattern
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dev_dependencies:
+  benchmark_harness: any
+  build_runner: any
+  build_web_compilers: any

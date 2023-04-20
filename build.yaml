@@ -1,0 +1,11 @@
+targets:
+  $default:
+    sources:
+      - benchmark/**
+      - lib/**
+      - $package$
+    builders:
+      build_web_compilers:
+        options:
+          dart2js_args:
+            - O4
