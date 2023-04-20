@@ -1,5 +1,8 @@
 Basic benchmarks for the builder pattern versus regular constructors.
 
+**Note**: Before any of the following commands, you will need to run
+`dart pub get`.
+
 ## Running JIT vm benchmarks
 
 `dart run benchmark/main.dart`
